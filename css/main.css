@@ -309,6 +309,15 @@ LANGUAGES
   background: url(../img/star-red.png) no-repeat;
 }
 /*******************************************
+COURSES
+*******************************************/
+#courses .course{
+  font-size: 1.1em;
+  margin: 5px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+/*******************************************
 HOBBIES
 *******************************************/
 .hobby{
