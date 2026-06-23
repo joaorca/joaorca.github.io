@@ -1,0 +1,23 @@
+{
+  "theme": "dark",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '\\n[salvar] Lembre-se de rodar /salvar para persistir memorias da sessao.'"
+          }
+        ]
+      }
+    ]
+  }
+}
